@@ -30,57 +30,11 @@ font-family: Segoe UI;
   bottom: 8px;
   right: 16px;
 }
-   .alert {
-  padding: 20px;
-  background-color: red;
-  color: white;
-  opacity: 1;
-  transition: opacity 0.6s;
-  margin-bottom: 15px;
-}
-
-.alert.success {background-color: green;}
-.alert.info {background-color: #7CB9E8;}
-.alert.warning {
-background-color: #e7ed2d;
-color: black;
-}
-
-.closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.closebtn:hover {
-  color: black;
-}
   </style>
 
  </head>
  <body>
   <p class="version_indicator">Version 2.2.0</p>
-  <div class="alert warning">
-  <span class="closebtn">&times;</span>  
-  This website will not receive any updates until November 20, 2023.
-</div>
-   <script>
-var close = document.getElementsByClassName("closebtn");
-var i;
-
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function(){
-    var div = this.parentElement;
-    div.style.opacity = "0";
-    setTimeout(function(){ div.style.display = "none"; }, 600);
-  }
-}
-</script>
   <h1>Home</h1>
 <p>Welcome to my website! After 3 months, 2.2 is officially released! 2.1 is now deprecated, and its files will be moved to 2.2.</p>
   <form style="display: inline" action="https://joseernestoongithub.github.io/My-Website/2.2/projects.html" method="get">
